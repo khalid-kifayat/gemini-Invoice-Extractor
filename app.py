@@ -57,3 +57,24 @@ if submit:
     response=get_gemini_response(input_prompt,image_data,input)
     st.subheader("The Rresponse is")
     st.write(response)
+
+st.markdown("---")
+st.caption("using Google Gemini Pro, Python-Langchain Application created by Khalid kifayat :sunglasses:")
+
+
+hide_streamlit_style = """
+            <style>
+
+            [data-testid="stToolbar"] {visibility: hidden;}
+            .reportview-container {
+            margin-top: -2em;
+        }
+            #MainMenu {visibility: hidden;}
+            .stDeployButton {display:none;}
+            #stDecoration {display:none;}
+            footer {visibility: hidden;}
+            div.embeddedAppMetaInfoBar_container__DxxL1 {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
