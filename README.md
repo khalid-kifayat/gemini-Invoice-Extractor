@@ -1,4 +1,4 @@
-Gemini Pro LLM - Product Details :
+Gemini Pro LLM - Invoice Extractor Project Details :
 
 I have developed an end-to-end project using Gemini Pro VISION, the latest LLM (Large Language Model) technology. A multi-language invoice extractor. 
 
